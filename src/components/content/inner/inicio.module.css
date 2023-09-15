@@ -1,0 +1,27 @@
+.inicio {
+  text-align: center;
+}
+
+.split {
+  display: flex;
+}
+
+.split .atracoes {
+  font-size: 1.5rem;
+  width: 45%;
+  margin-left: 4%;
+}
+
+.atracoes h2 {
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.atracoes li {
+  font-size: 1.25rem;
+  margin-bottom: 0.35rem;
+}
+
+.split .slideshow {
+  flex-grow: 100;
+}
