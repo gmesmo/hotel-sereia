@@ -17,10 +17,22 @@
   --shadow: 0px 0px 15px #000d;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: var(--ff-destaque);
+  color: var(--destaque);
+  margin-bottom: 0.5rem;
+}
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+  overflow-x: hidden;
 }
 
 body {
