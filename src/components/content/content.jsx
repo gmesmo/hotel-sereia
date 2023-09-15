@@ -10,7 +10,7 @@ const Content = (props) => {
   return (
     <div className={styles.content}>
       <Title title={title} />
-      <Inner />
+      <Inner key={title} page={title} />
     </div>
   );
 };
