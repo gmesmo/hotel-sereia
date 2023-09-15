@@ -15,7 +15,7 @@
 
   overflow: hidden;
 
-  font-family: "Istok Web", Istok;
+  font-family: var(--ff-destaque);
   font-weight: 900;
 }
 

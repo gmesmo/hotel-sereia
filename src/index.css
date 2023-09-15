@@ -2,6 +2,10 @@
   font-family: Istok;
   src: url("./fonts/IstokWeb-Regular.ttf");
 }
+@font-face {
+  font-family: Fontastique;
+  src: url("assets/fonts/fontastique.ttf");
+}
 
 :root {
   --destaque: #00a990;
