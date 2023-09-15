@@ -14,8 +14,8 @@ const Navigation = (props) => {
   return (
     <nav className={styles.header}>
       <Button onClick={onClickHandler} text={"Acomodações"} />
-      <Button text={"Como chegar"} />
-      <Button text={"Mais Fotos"} />
+      <Button onClick={onClickHandler} text={"Como chegar"} />
+      <Button onClick={onClickHandler} text={"Mais Fotos"} />
     </nav>
   );
 };

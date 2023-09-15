@@ -1,0 +1,12 @@
+.content {
+  display: flex;
+
+  margin: 0 auto;
+  margin-top: 5rem;
+
+  width: calc(85dvw - 6rem);
+
+  background-color: white;
+
+  box-shadow: var(--shadow);
+}

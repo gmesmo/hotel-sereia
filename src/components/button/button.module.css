@@ -37,6 +37,7 @@
 
 .main_link:hover {
   color: white;
+  cursor: pointer;
 }
 
 .main_link:hover::after {
