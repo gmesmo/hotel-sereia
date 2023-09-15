@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: Fontastique;
-  src: url("assets/fonts/fontastique.ttf");
+  src: url("./fonts/fontastique.ttf");
 }
 
 :root {
