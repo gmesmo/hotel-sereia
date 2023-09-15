@@ -13,9 +13,26 @@ const Navigation = (props) => {
 
   return (
     <nav className={styles.header}>
-      <Button onClick={onClickHandler} text={"Acomodações"} />
-      <Button onClick={onClickHandler} text={"Como chegar"} />
-      <Button onClick={onClickHandler} text={"Mais Fotos"} />
+      {props.page != "Início" ? (
+        <Button onClick={props.onClick} text={"Início"} />
+      ) : (
+        ""
+      )}
+      {props.page != "Acomodações" ? (
+        <Button onClick={props.onClick} text={"Acomodações"} />
+      ) : (
+        ""
+      )}
+      {props.page != "Como chegar" ? (
+        <Button onClick={props.onClick} text={"Como chegar"} />
+      ) : (
+        ""
+      )}
+      {props.page != "Mais Fotos" ? (
+        <Button onClick={props.onClick} text={"Mais Fotos"} />
+      ) : (
+        ""
+      )}
     </nav>
   );
 };
