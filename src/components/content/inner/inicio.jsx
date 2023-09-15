@@ -7,16 +7,25 @@ import "react-slideshow-image/dist/styles.css";
 
 const spanStyle = {
   padding: "20px",
-  background: "#efefef",
+  background: "#efefef44",
   color: "#000000",
+  position: "absolute",
+  width: "100%",
+  textAlign: "center",
+  fontWeight: "bold",
+  fontFamily: "var(--ff-text)",
+  letterSpacing: ".05rem",
 };
 
 const divStyle = {
+  position: "relative",
   display: "flex",
-  alignItems: "center",
+  alignItems: "last baseline",
   justifyContent: "center",
   backgroundSize: "cover",
+  width: "100%",
   height: "400px",
+  padding: "1rem",
 };
 const slideImages = [
   {
@@ -74,6 +83,7 @@ const Inicio = () => {
                   style={{
                     ...divStyle,
                     backgroundImage: `url(${slideImage.url})`,
+                    width: "100%",
                   }}
                 >
                   <span style={spanStyle}>{slideImage.caption}</span>
@@ -83,6 +93,8 @@ const Inicio = () => {
           </Slide>
         </div>
       </section>
+      <Line />
+      <section></section>
     </>
   );
 };

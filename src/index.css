@@ -31,10 +31,9 @@ h5 {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-
-  overflow-x: hidden;
 }
 
 body {
   background-color: var(--azul-base);
+  overflow-x: hidden;
 }

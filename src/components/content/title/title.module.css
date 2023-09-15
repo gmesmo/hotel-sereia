@@ -10,6 +10,7 @@
   font-family: var(--ff-destaque);
   padding: 0.75rem;
   letter-spacing: 0.15rem;
+  margin: 0;
 
   background: linear-gradient(135deg, #ccc3 25%, transparent 25%) -40px 0,
     linear-gradient(225deg, #ccc3 25%, transparent 25%) -40px 0,

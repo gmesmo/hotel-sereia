@@ -17,11 +17,21 @@
   text-align: center;
 }
 
+ul {
+  display: initial !important;
+}
+
 .atracoes li {
   font-size: 1.25rem;
-  margin-bottom: 0.35rem;
+  margin-bottom: 0.5rem;
+  /* list-style-type: circle; */
+}
+
+li::marker {
+  color: var(--destaque);
 }
 
 .split .slideshow {
-  flex-grow: 100;
+  margin: 2rem;
+  width: calc(60% - 4rem);
 }
