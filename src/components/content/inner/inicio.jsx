@@ -30,7 +30,7 @@ const divStyle = {
   justifyContent: "center",
   backgroundSize: "cover",
   width: "100%",
-  height: "400px",
+  height: "500px",
   padding: "1rem",
 };
 
