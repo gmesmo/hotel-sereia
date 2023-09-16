@@ -1,6 +1,12 @@
 import Line from "../../line";
 import styles from "./inicio.module.css";
 
+import Button from "../../button/button";
+
+import { ImWhatsapp } from "react-icons/Im";
+import { BsPhoneFill } from "react-icons/Bs";
+import { FaMapMarkerAlt } from "react-icons/Fa";
+
 // 3rd party
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
@@ -27,18 +33,47 @@ const divStyle = {
   height: "400px",
   padding: "1rem",
 };
+
 const slideImages = [
   {
-    url: "https://images.unsplash.com/photo-1509721434272-b79147e0e708?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
-    caption: "Slide 1",
+    url: "http://hotelsereia.com.br/assets/img/mais_fotos/patio_piscina.jpg",
+    caption: "Patio Piscina",
   },
   {
-    url: "https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80",
+    url: "http://hotelsereia.com.br/assets/img/img-1.jpg",
     caption: "Slide 2",
   },
   {
-    url: "https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80",
+    url: "http://hotelsereia.com.br/assets/img/img-2.jpg",
     caption: "Slide 3",
+  },
+  {
+    url: "http://hotelsereia.com.br/assets/img/img-3.jpg",
+    caption: "Slide 4",
+  },
+  {
+    url: "http://hotelsereia.com.br/assets/img/img-4.jpg",
+    caption: "Slide 5",
+  },
+  {
+    url: "http://hotelsereia.com.br/assets/img/img-5.jpg",
+    caption: "Slide 6",
+  },
+  {
+    url: "http://hotelsereia.com.br/assets/img/img-6.jpg",
+    caption: "Slide 7",
+  },
+  {
+    url: "http://hotelsereia.com.br/assets/img/img-7.jpg",
+    caption: "Slide 8",
+  },
+  {
+    url: "http://hotelsereia.com.br/assets/img/img-8.jpg",
+    caption: "Slide 9",
+  },
+  {
+    url: "http://hotelsereia.com.br/assets/img/img-9.jpg",
+    caption: "Slide 10",
   },
 ];
 
@@ -94,7 +129,15 @@ const Inicio = () => {
         </div>
       </section>
       <Line />
-      <section></section>
+      <section>
+        <h2>Encontre-nos através do menu Social ou contatos abaixo</h2>
+        <div className={styles.buttonWrapper}>
+          <Button Icon={<ImWhatsapp />} text={"WhatsApp"} />
+          <Button Icon={<BsPhoneFill />} text={"Celular"} />
+          <Button Icon={<FaMapMarkerAlt />} text={"Localização"} />
+        </div>
+      </section>
+      <Line />
     </>
   );
 };

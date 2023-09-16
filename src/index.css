@@ -25,6 +25,7 @@ h5 {
   font-family: var(--ff-destaque);
   color: var(--destaque);
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 * {
