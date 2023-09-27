@@ -4,13 +4,12 @@ import styles from "./inicio.module.css";
 import Button from "../../button/button";
 
 import { ImWhatsapp } from "react-icons/im";
-
+import { BsPhoneFill } from "react-icons/bs";
 import { FaMapMarkerAlt } from "react-icons/fa";
 
 // 3rd party
 import { Slide } from "react-slideshow-image";
 import "react-slideshow-image/dist/styles.css";
-import { BsPhoneFill } from "react-icons/bs";
 
 const spanStyle = {
   padding: "20px",
