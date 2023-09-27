@@ -3,9 +3,9 @@ import styles from "./inicio.module.css";
 
 import Button from "../../button/button";
 
-import { ImWhatsapp } from "react-icons/lib/im/whatsapp";
-import { BsPhoneFill } from "react-icons/Bs";
-import { FaMapMarkerAlt } from "react-icons/Fa";
+import { ImWhatsapp } from "react-icons/all-files/im/ImWhatsapp";
+import { BsPhoneFill } from "react-icons/all-files/bs/BsPhoneFill";
+import { FaMapMarkerAlt } from "react-icons/all-files/fa/FaMapMarkerAlt";
 
 // 3rd party
 import { Slide } from "react-slideshow-image";
