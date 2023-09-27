@@ -18,7 +18,6 @@ function App() {
     <>
       <Navigation onClick={onNavClick} page={currentPage} />
       <Logo />
-
       <Content page={currentPage} />
     </>
   );
