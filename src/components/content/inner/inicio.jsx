@@ -3,7 +3,7 @@ import styles from "./inicio.module.css";
 
 import Button from "../../button/button";
 
-import { ImWhatsapp } from "react-icons/Im";
+// import { ImWhatsapp } from "react-icons/Im";
 import { BsPhoneFill } from "react-icons/Bs";
 import { FaMapMarkerAlt } from "react-icons/Fa";
 
@@ -132,7 +132,7 @@ const Inicio = () => {
       <section>
         <h2>Encontre-nos através do menu Social ou contatos abaixo</h2>
         <div className={styles.buttonWrapper}>
-          <Button Icon={<ImWhatsapp />} text={"WhatsApp"} />
+          <Button text={"WhatsApp"} />
           <Button Icon={<BsPhoneFill />} text={"Celular"} />
           <Button Icon={<FaMapMarkerAlt />} text={"Localização"} />
         </div>
